@@ -8,7 +8,7 @@ int main(){
     int max = 6; 
     
     srand(time(NULL)); 
-    int randomNum = (rand()%2)+1; 
+    int randomNum = (rand()%(max-min +1))+min; //random formula 
     printf("%d", randomNum); 
 
     return 0; 
