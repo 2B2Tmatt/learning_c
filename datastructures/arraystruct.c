@@ -20,8 +20,6 @@ int main(){
         printf("%s %d $%d\n", cars[i].model, cars[2].year, cars[3].price);
     }
 
-    
-
 
     return 0; 
 }

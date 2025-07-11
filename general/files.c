@@ -4,7 +4,7 @@ int main(){
     // arguments:  path(abs or rel), write/read mode
     FILE* pFile = fopen("output.txt", "w"); 
     // pointers == null if file can't be accessed
-    char text[] = "BOOTY BOOTY BOOTY\n BOOO!";
+    char text[] = "BOOTY BOOTY BOOTY\nBOOO!";
     if(pFile == NULL){
         printf("Error opening file\n"); 
         return 1; 

@@ -23,7 +23,7 @@ int main(){
 void connectStatus(Status status){
     switch(status){
         case SUCCESS: 
-            printf("Connection was successfull\n"); 
+            printf("Connection was successful\n"); 
             break;
         case FAILURE: 
             printf("Could not connect\n"); 

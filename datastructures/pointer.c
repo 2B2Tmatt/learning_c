@@ -25,4 +25,5 @@ int main(){
 void birthday(int* age){
     // pass by reference
     (*age)++;
+    //* without type means dereferencing 
 }
